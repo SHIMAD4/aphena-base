@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "@rc-foundation/eslint-config-rc",
+    "@rc-foundation/eslint-config-rc/unicorn",
+    "@rc-foundation/eslint-config-rc/fsd-import"
+  ],
+  "env": {
+    "browser": true,
+    "amd": true,
+    "node": true
+  }
+}

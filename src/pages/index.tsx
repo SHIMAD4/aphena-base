@@ -1,6 +1,5 @@
 import {FC} from 'react'
-import {HomeProps} from './types'
 
-export const Home: FC<HomeProps> = ({}) => {
-    return <></>
+export const Home: FC = () => {
+    return <><p>fdspks;dflk</p></>
 }
