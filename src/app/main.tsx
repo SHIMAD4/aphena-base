@@ -1,11 +1,10 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import {Home} from '../pages'
-import '../shared/styles/global/normalize.css'
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import { Home } from '@/pages/home';
+import '../shared/styles/global/normalize.css';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
     <React.StrictMode>
-        <Home/>
+        <Home />
     </React.StrictMode>,
-)
-
+);
